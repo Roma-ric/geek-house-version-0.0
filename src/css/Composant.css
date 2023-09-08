@@ -1,0 +1,313 @@
+
+/* body{
+    margin: 0;
+} */
+
+a{
+    text-decoration: none;
+}
+
+/* Composant Header */
+.header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid grey;
+    background-color: white;
+    box-shadow: 0px 0px 50px 20px grey;
+    z-index: 1;
+}
+
+.inscription{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.part1, .part2, .part3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.logoName{
+    padding-top: 13px ;
+}
+
+.profil_user{
+    height: 50px;
+}
+
+/* Composant Button */
+.button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Composant DivImage */
+.div_image{
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    /* color: white; */
+    /* background-color: grey; */
+    background: url(../images/background__.jpg);
+    background-size: cover;
+}
+
+/* Composant Categorie */
+/* .categorie{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.photo{
+    width: 70%;
+    border-right: 1px solid grey;
+    background-color: grey;
+    background-image: url(../images/ordinateur.jpg);
+    background-size: cover;
+}
+
+.description{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* Composant Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(46, 43, 43);
+    color: white;
+    flex-wrap: wrap;
+}
+
+ul > a {
+    color: white;
+}
+
+.partie1, .partie2, .partie3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reseaux_sociaux{
+    display: flex;
+}
+
+.mail{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    border-bottom: 2px solid grey;
+}
+
+/* Composant LinkCategorie */
+.linkCategorie{
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* transition: transform 500ms ; */
+}
+
+
+/* .linkCategorie:hover{
+    transform: scale(1.1);
+} */
+
+/* Composant Panier */
+.panier, .achat_en_attente{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Composant Panier et achat_en_attente */
+.panier, .achat_en_attente{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Composant Menu */
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.close{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+}
+
+.produits{
+    width: 70%;
+    /* z-index: 0; */
+}
+
+.openMenu{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+/* Composant Equipement */
+.equipement{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 200px;
+}
+
+.image_equipement{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    background-color: grey;
+    /* background: url(../images/background.jpg);
+    background-size: cover; */
+}
+
+.infosEquipement{
+    display: flex;
+    flex-direction: column;
+}
+
+.Infos{
+    display: flex;
+}
+
+.info{
+    width: auto;
+    height: auto;
+    border-right: 1px solid grey;
+    padding: 10px;
+}
+
+.prix{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.ajout{
+    width: 100%;
+    padding: 10px;
+}
+
+/* Composant Boutique */
+.boutique{
+    display: flex;
+}
+
+.menu_alignement{
+    width: 30%;
+    /* z-index: 1; */
+}
+
+.produits{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Composant PhotoProfil */
+.photoProfil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Composant InfosUtilisateur */
+.infosUtilisateur{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.infos_user{
+    display: flex;
+    flex-direction: column;
+}
+
+.photoUser{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto; 
+    background-image: url(../images/romaric.jpg);
+    background-size: cover;
+    transition: transform 500ms ;
+}
+
+.photoUser:hover{
+    transform: scale(1.1);
+}
+
+
+.recupPhoto{
+    margin: 10px;
+}
+
+.mot_de_passe{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Composant ProfilUtilisateur */
+.profilUtilisateur{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Composant Option */
+.option{
+    width: 100%;
+    
+}
+
+.option:hover{
+    background-color: #757575;
+    color: white;
+}
+
